@@ -269,7 +269,7 @@ We **strongly** advise all application authors to review this list carefully.
   * [Route `Forward` outcomes] are now associated with a `Status`.
   * The status codes used when built-in guards forward were changed:
     - Route parameter `FromParam` errors now forward as 422.
-    - Query paramater errors now forward as 422.
+    - Query parameter errors now forward as 422.
     - Incorrect form content-type errors forwards as 413.
     - `&Host`, `&Accept`, `&ContentType`, `IpAddr`, and `SocketAddr` all forward
       with a 500.
