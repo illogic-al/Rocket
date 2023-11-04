@@ -22,4 +22,4 @@ path = "../../contrib/db_pools/lib"
 features = ["sqlx_sqlite"]
 
 [dev-dependencies.rocket_ws]
-path = "../../contrib/ws/lib"
+path = "../../contrib/ws"
