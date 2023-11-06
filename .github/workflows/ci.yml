@@ -18,6 +18,7 @@ jobs:
           - { name: Linux, distro: ubuntu-latest, toolchain: stable }
           - { name: Windows, distro: windows-latest, toolchain: stable }
           - { name: macOS, distro: macOS-latest, toolchain: stable }
+          - { name: macOS, distro: macOS-latest, toolchain: 1.68.0 }
           - { name: Linux, distro: ubuntu-latest, toolchain: nightly }
         test:
           - { name: Debug, flag: }
